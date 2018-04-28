@@ -18,7 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self sayhello];
-    [self sayByebye];
 }
 
 -(void)sayhello{
@@ -26,6 +25,10 @@
 }
 -(void)sayByebye{
     NSLog(@"sayByebye");
+}
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self sayByebye];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
