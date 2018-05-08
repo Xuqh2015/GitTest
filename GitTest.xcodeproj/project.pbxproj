@@ -15,6 +15,8 @@
 		18526C9F20944733008889BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18526C9E20944733008889BE /* main.m */; };
 		18526CA920944733008889BE /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18526CA820944733008889BE /* GitTestTests.m */; };
 		18526CB420944733008889BE /* GitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18526CB320944733008889BE /* GitTestUITests.m */; };
+		18DAF88E20947A00008E8C2B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DAF88C209479FF008E8C2B /* TestViewController.m */; };
+		18DAF88F20947A00008E8C2B /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DAF88D209479FF008E8C2B /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		18526CAF20944733008889BE /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18526CB320944733008889BE /* GitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestUITests.m; sourceTree = "<group>"; };
 		18526CB520944733008889BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DAF88B209479FF008E8C2B /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		18DAF88C209479FF008E8C2B /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		18DAF88D209479FF008E8C2B /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				18526C9A20944733008889BE /* LaunchScreen.storyboard */,
 				18526C9D20944733008889BE /* Info.plist */,
 				18526C9E20944733008889BE /* main.m */,
+				18DAF88B209479FF008E8C2B /* TestViewController.h */,
+				18DAF88C209479FF008E8C2B /* TestViewController.m */,
+				18DAF88D209479FF008E8C2B /* TestViewController.xib */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 			files = (
 				18526C9C20944733008889BE /* LaunchScreen.storyboard in Resources */,
 				18526C9920944733008889BE /* Assets.xcassets in Resources */,
+				18DAF88F20947A00008E8C2B /* TestViewController.xib in Resources */,
 				18526C9720944733008889BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +276,7 @@
 			files = (
 				18526C9420944732008889BE /* ViewController.m in Sources */,
 				18526C9F20944733008889BE /* main.m in Sources */,
+				18DAF88E20947A00008E8C2B /* TestViewController.m in Sources */,
 				18526C9120944732008889BE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
